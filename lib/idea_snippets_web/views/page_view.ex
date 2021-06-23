@@ -10,4 +10,5 @@ defmodule IdeaSnippetsWeb.PageView do
   def parse_markdown(markdown) do
     Earmark.as_html!(markdown, %Earmark.Options{code_class_prefix: "lang-", smartypants: false})
   end
+
 end
